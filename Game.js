@@ -18,7 +18,6 @@ class Game {
  }
 
  render(colors = ['#2ee', '#2ee', '#2ee'], money = this.wallet.getWalletValue(), result = "", stats = [0, 0, 0], bid = 0, wonMoney = 0) {
-  // console.log("gramy!!");
 
   this.boards.forEach((board, i) => {
    board.style.backgroundColor = colors[i]
